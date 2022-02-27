@@ -135,3 +135,10 @@ p {
     border-radius: 8px;
     margin-top: 5px;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+} 
