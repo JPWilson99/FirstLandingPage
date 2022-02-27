@@ -4,7 +4,7 @@ body {
 
 .header-bottom img {
     height: 175px;
-    width: 300px;
+    width: 400px;
 }
 
 .core img {
@@ -49,7 +49,8 @@ a {
     display: flex;
     margin: 0;
     padding-top: 75px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .hero {
