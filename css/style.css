@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header-bottom img {
     height: 175px;
     width: 300px;
@@ -11,11 +15,12 @@
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 0px 75px 75px;
 }
 
 .header-top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 16px;
 }
@@ -41,5 +46,21 @@ a {
 }
 
 .header-bottom {
-    
+    display: flex;
+    margin: 0;
+    padding-top: 75px;
+    justify-content: space-between;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.button-first button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 7px 24px;
+    border: none;
+    border-radius: 8px;
 }
