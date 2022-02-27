@@ -1,0 +1,45 @@
+.header-bottom img {
+    height: 175px;
+    width: 300px;
+}
+
+.core img {
+    height: 100px;
+    width: 100px;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    padding-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+.header-bottom {
+    
+}
