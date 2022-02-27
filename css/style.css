@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-.core img {
-    height: 100px;
-    width: 100px;
-}
 
 .header {
     background-color: #1f2937;
@@ -67,3 +63,50 @@ a {
     border-radius: 8px;
     margin-top: 5px;
 }
+
+p {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.info {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 120px;
+}
+
+.info img {
+    height: 100px;
+    width: 100px;
+}
+
+.caption {
+    display: block;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.credit {
+    text-align: end;
+    font-weight: bold;
+}
+
